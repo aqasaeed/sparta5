@@ -229,6 +229,8 @@ function create_config( )
       "xkcd",
       "youtube" },
     sudo_users = {146340607},
+    realm = {64972302},--Realms Id
+
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
